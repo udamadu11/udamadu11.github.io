@@ -7,11 +7,6 @@
 
 .login form {
   animation: form-entry 1s ease-in-out;
-  background: #111;
-  background: linear-gradient(#74ebe6, #74ebe6);
-  border: 6px solid #74ebe6;
-  box-shadow: 0 0 15px #74ebe6;
-  border-radius: 5px;
   display: inline-block;
   height: 220px;
   margin: 260px auto 0;
@@ -43,11 +38,9 @@
   width: 400px;
 }
 .login input:focus {
-  animation: box-glow 1s ease-out infinite alternate;
   background: #0B4252;
   background: linear-gradient(#333933, #222922);
   border-color: #00fffc;
-  box-shadow: 0 0 5px rgba(0, 255, 253, 0.2), inset 0 0 5px rgba(0, 255, 253, 0.1), 0 2px 0 black;
   color: #efe;
   outline: none;
 }
@@ -104,24 +97,6 @@ Spinner
   left: 0;
 }
 
-/* =========================================
-Hexagon Mesh
-========================================= */
-.hexagons {
-  animation: logo-entry 1s ease-in;
-  /*background:url(http://fc03.deviantart.net/fs71/i/2012/237/c/7/jarvis_rainmeter_skin_by_ingwey-d5cc571.png);*/
-  color: #000;
-  font-size: 52px;
-  font-size: 5.1rem;
-  letter-spacing: -0.2em;
-  line-height: 0.7;
-  position: absolute;
-  text-shadow: 0 0 6px #74ebe6;
-  top: 1px;
-  width: 100%;
-  /*transform: perspective(60px)  scale(2.4);*/
-  z-index: -3;
-}
 #logo {
   animation: logo-entry 1.5s ease-in;
   width: 400px;
